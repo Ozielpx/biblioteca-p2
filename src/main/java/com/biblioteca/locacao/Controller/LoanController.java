@@ -30,7 +30,7 @@ public class LoanController {
         return service.findAll(); 
     }
 
-    @GetMapping("/search")
+    @GetMapping("/")
     public List<Loan> findByCustomer(@RequestParam Long customerId, @RequestParam LocalDate startDate, @RequestParam LocalDate endDate) {
         if (customerId != null) {
             return service.findByCustomerId(customerId);

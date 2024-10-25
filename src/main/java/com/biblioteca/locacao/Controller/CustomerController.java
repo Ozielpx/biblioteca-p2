@@ -32,7 +32,7 @@ public class CustomerController {
         return service.findById(id); 
     }
 
-    @GetMapping("/search")
+    @GetMapping("/")
     public List<Customer> findByAttributes(@RequestParam(required = false) String name,
                                            @RequestParam(required = false) LocalDate birthDate) {
         if (name != null) {

@@ -105,5 +105,9 @@ public class Customer {
             return false;
         return true;
     }
+    public Customer findById(Long id2) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'findById'");
+    }
 
 }
