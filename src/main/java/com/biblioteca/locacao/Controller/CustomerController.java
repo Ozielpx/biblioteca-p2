@@ -15,9 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.biblioteca.locacao.Model.BookStatus;
-import com.biblioteca.locacao.Model.Loan;
-import com.biblioteca.locacao.Model.LoanStatus;
 import com.biblioteca.locacao.Model.Customer;
 import ch.qos.logback.core.status.Status;
 

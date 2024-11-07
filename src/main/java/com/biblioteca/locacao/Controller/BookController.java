@@ -1,6 +1,5 @@
 package com.biblioteca.locacao.Controller;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,15 +11,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.biblioteca.locacao.Model.Book;
 import com.biblioteca.locacao.Model.BookStatus;
-import com.biblioteca.locacao.Model.Loan;
-import com.biblioteca.locacao.Model.LoanStatus;
-import com.biblioteca.locacao.Model.Customer;
-import ch.qos.logback.core.status.Status;
+import com.biblioteca.locacao.Service.BookService;
 
 @RestController
 @RequestMapping("/api/books")
